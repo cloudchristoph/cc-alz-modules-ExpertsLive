@@ -1,0 +1,58 @@
+{
+  "sku": {
+      "name": "Standard_LRS",
+      "tier": "Standard"
+  },
+  "kind": "StorageV2",
+  "id": "/subscriptions/9336bb37-673a-489d-9d67-58b0ac0a7ee9/resourceGroups/rg-storageaccount-comparison/providers/Microsoft.Storage/storageAccounts/stacc14oxku3rfpsrgc",
+  "name": "stacc14oxku3rfpsrgc",
+  "type": "Microsoft.Storage/storageAccounts",
+  "location": "germanywestcentral",
+  "tags": {},
+  "properties": {
+      "keyCreationTime": {
+          "key1": "2024-06-04T10:28:21.8813248Z",
+          "key2": "2024-06-04T10:28:21.8813248Z"
+      },
+      "allowCrossTenantReplication": false,
+      "privateEndpointConnections": [],
+      "minimumTlsVersion": "TLS1_0",
+      "allowBlobPublicAccess": false,
+      "networkAcls": {
+          "ipv6Rules": [],
+          "bypass": "AzureServices",
+          "virtualNetworkRules": [],
+          "ipRules": [],
+          "defaultAction": "Allow"
+      },
+      "supportsHttpsTrafficOnly": true,
+      "encryption": {
+          "services": {
+              "file": {
+                  "keyType": "Account",
+                  "enabled": true,
+                  "lastEnabledTime": "2024-06-04T10:28:21.8813248Z"
+              },
+              "blob": {
+                  "keyType": "Account",
+                  "enabled": true,
+                  "lastEnabledTime": "2024-06-04T10:28:21.8813248Z"
+              }
+          },
+          "keySource": "Microsoft.Storage"
+      },
+      "accessTier": "Hot",
+      "provisioningState": "Succeeded",
+      "creationTime": "2024-06-04T10:28:21.8032923Z",
+      "primaryEndpoints": {
+          "dfs": "https://stacc14oxku3rfpsrgc.dfs.core.windows.net/",
+          "web": "https://stacc14oxku3rfpsrgc.z1.web.core.windows.net/",
+          "blob": "https://stacc14oxku3rfpsrgc.blob.core.windows.net/",
+          "queue": "https://stacc14oxku3rfpsrgc.queue.core.windows.net/",
+          "table": "https://stacc14oxku3rfpsrgc.table.core.windows.net/",
+          "file": "https://stacc14oxku3rfpsrgc.file.core.windows.net/"
+      },
+      "primaryLocation": "germanywestcentral",
+      "statusOfPrimary": "available"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "sku": {
+      "name": "Standard_GRS",
+      "tier": "Standard"
+  },
+  "kind": "StorageV2",
+  "id": "/subscriptions/9336bb37-673a-489d-9d67-58b0ac0a7ee9/resourceGroups/rg-storageaccount-comparison/providers/Microsoft.Storage/storageAccounts/stacc24oxku3rfpsrgc",
+  "name": "stacc24oxku3rfpsrgc",
+  "type": "Microsoft.Storage/storageAccounts",
+  "location": "germanywestcentral",
+  "tags": {},
+  "properties": {
+      "defaultToOAuthAuthentication": false,
+      "keyCreationTime": {
+          "key1": "2024-06-04T10:28:13.8188382Z",
+          "key2": "2024-06-04T10:28:13.8188382Z"
+      },
+      "allowCrossTenantReplication": true,
+      "privateEndpointConnections": [],
+      "isLocalUserEnabled": false,
+      "isSftpEnabled": false,
+      "minimumTlsVersion": "TLS1_2",
+      "allowBlobPublicAccess": false,
+      "allowSharedKeyAccess": true,
+      "networkAcls": {
+          "ipv6Rules": [],
+          "bypass": "AzureServices",
+          "virtualNetworkRules": [],
+          "ipRules": [],
+          "defaultAction": "Deny"
+      },
+      "supportsHttpsTrafficOnly": true,
+      "encryption": {
+          "identity": {},
+          "requireInfrastructureEncryption": true,
+          "services": {
+              "file": {
+                  "keyType": "Account",
+                  "enabled": true,
+                  "lastEnabledTime": "2024-06-04T10:28:14.1312671Z"
+              },
+              "blob": {
+                  "keyType": "Account",
+                  "enabled": true,
+                  "lastEnabledTime": "2024-06-04T10:28:14.1312671Z"
+              }
+          },
+          "keySource": "Microsoft.Storage"
+      },
+      "accessTier": "Hot",
+      "provisioningState": "Succeeded",
+      "creationTime": "2024-06-04T10:28:13.7406976Z",
+      "primaryEndpoints": {
+          "dfs": "https://stacc24oxku3rfpsrgc.dfs.core.windows.net/",
+          "web": "https://stacc24oxku3rfpsrgc.z1.web.core.windows.net/",
+          "blob": "https://stacc24oxku3rfpsrgc.blob.core.windows.net/",
+          "queue": "https://stacc24oxku3rfpsrgc.queue.core.windows.net/",
+          "table": "https://stacc24oxku3rfpsrgc.table.core.windows.net/",
+          "file": "https://stacc24oxku3rfpsrgc.file.core.windows.net/"
+      },
+      "primaryLocation": "germanywestcentral",
+      "statusOfPrimary": "available",
+      "secondaryLocation": "germanynorth",
+      "statusOfSecondary": "available",
+      "customDomain": {
+          "name": ""
+      }
+  }
+}

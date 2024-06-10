@@ -1,0 +1,27 @@
+requires:
+  PSRule: '>=2.8.1'
+  PSRule.Rules.Azure: '>=1.29.0'
+
+include:
+  module:
+  - PSRule.Rules.Azure
+
+configuration:
+  # Enable expansion of Azure Template parameter files.
+  AZURE_PARAMETER_FILE_EXPANSION: true
+
+  # Enable expansion of Azure Bicep files.
+  AZURE_BICEP_FILE_EXPANSION: true
+
+input:
+  pathIgnore:
+  # Exclude bicepconfig.json
+  - 'bicepconfig.json'
+  # Exclude module files
+  - 'alz/**/*.bicep'
+  - 'base-modules/**/*.bicep'
+  # Include test files from modules
+  - '!alz/**/*.tests.bicep'
+  - '!base-modules/**/*.tests.bicep'
+  # Exclude examples
+  - 'examples/**/*'
